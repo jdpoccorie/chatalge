@@ -9,7 +9,7 @@
     })
 
     io.on('new user', function (newUser) {
-        alert(newUser.message)
+        
     })
     
     io.on('user says', function (userSays) {
@@ -17,7 +17,7 @@
     })
 
     io.on('bye user', function (newUser) {
-        alert(newUser.message)
+        
     })
 
 })(document, io, jQuery, console.log)
